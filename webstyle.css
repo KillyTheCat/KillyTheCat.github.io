@@ -40,7 +40,7 @@ body {
 
 h1 {
   padding-top: 20vh;
-  font-size: 5rem;
+  font-size: 8vh;
   text-shadow: 3px 2px 2px rgba(251, 12, 12, 1),
     0px -1px 3px rgba(12, 79, 251, 0.5), -3px 0px 2px rgba(52, 251, 12, 1);
   animation: chromaticMove 4500ms ease infinite, pulse ease 200ms infinite;
@@ -48,12 +48,18 @@ h1 {
 }
 
 .button-container {
-  padding-top: 2rem;
   align-self: center;
 }
 
+h2 {
+  font-size: 6vh;
+  font-family: pasowsky;
+  font-weight: lighter;
+  animation: pulse ease 300ms infinite;
+}
+
 button {
-  font-size: 3rem;
+  font-size: 6vh;
   font-family: pasowsky;
   color: white;
   background-color: transparent;
@@ -67,6 +73,11 @@ button {
 button:hover {
   font-size: 6.5vh;
   animation: ease in 200ms;
+}
+button:focus {
+  font-size: 6.2vh;
+  animation: ease in 200ms;
+
 }
 small {
   display: block;
