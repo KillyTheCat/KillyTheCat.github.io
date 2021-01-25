@@ -39,8 +39,8 @@ body {
 }
 
 h1 {
-  padding-top: 33.3vh;
-  font-size: 8vh;
+  padding-top: 20vh;
+  font-size: 5rem;
   text-shadow: 3px 2px 2px rgba(251, 12, 12, 1),
     0px -1px 3px rgba(12, 79, 251, 0.5), -3px 0px 2px rgba(52, 251, 12, 1);
   animation: chromaticMove 4500ms ease infinite, pulse ease 200ms infinite;
@@ -53,14 +53,14 @@ h1 {
 }
 
 button {
-  font-size: 6vh;
+  font-size: 3rem;
   font-family: pasowsky;
   color: white;
   background-color: transparent;
   border: 3px light whitesmoke;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   animation: pulse ease 200ms infinite, chromaticMove 3000ms ease-in-out infinite;
 }
 
@@ -74,11 +74,11 @@ small {
   font-size: 24px;
 }
 
-/* @keyframes gradientMove { 
+@keyframes gradientMove { 
       0%{background-size: 100% 4px}
       50%{background-size: 100% 2px}
       100%{background-size: 100% 4px}
-  } */
+  }
 
 @keyframes pulse {
   0% {
